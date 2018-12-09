@@ -157,6 +157,9 @@ form {
 
 @media only screen and (max-width: 640px) {
 
+  body {
+        background-image: url(../images/what-the-hex/what-the-hex/what-the-hex.png);
+  }
   #contact {
     width: 611px;
     padding-left: 14px;
@@ -166,21 +169,28 @@ form {
     position: relative;
   }
 
-  #nav, #name{
-    position: absolute;
-    bottom: 0px;
+  #topNav {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  #name {
+    width: 100vw;
+    height: 20vh;
   }
 
-}
-
-@media only screen and (max-width: 640px) {
-  body {
-      background-image: url(..\images\what-the-hex\what-the-hex\what-the-hex.png);
+  #portfolio, #about {
+    margin-top: 80px;
+    width: 575px;
   }
 
   #contact {
-    width: 611px;
-    padding-left: 14px;
+    margin-top: 60px;
+    width:590;
   }
 }
 
